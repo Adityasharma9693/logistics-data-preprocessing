@@ -21,4 +21,13 @@ The pipeline is designed to work with logistics data containing the following fe
 ### Prerequisites
 Install the required Python packages:
 ```bash
-pip install pandas numpy scikit-learn
+pip install -r requirements.txt
+```
+
+### Usage
+1. Place your raw dataset in the root directory and name it `logistics_raw_data.csv`.
+2. Run the preprocessing script:
+```bash
+python data_preprocessing.py
+```
+3. The cleaned and normalized dataset will be saved as `logistics_cleaned_data.csv`.
